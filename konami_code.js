@@ -12,6 +12,7 @@ const codes = [
 ];
 
 function init() {
+  var count = 0;
   document.body.addEventListener('keydown',function(e) {
   var count = 0;
     var string = codes[count];
